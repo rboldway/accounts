@@ -40,7 +40,7 @@
       React.DOM.td null, amountFormat(@props.record.amount)
       React.DOM.td null,
         React.DOM.a
-          className: 'btn btn-default'
+          className: 'btn btn-secondary'
           onClick: @handleToggle
           'Edit'
         React.DOM.a
@@ -70,7 +70,7 @@
           ref: 'amount'
       React.DOM.td null,
         React.DOM.a
-          className: 'btn btn-default'
+          className: 'btn btn-secondary'
           onClick: @handleEdit
           'Update'
         React.DOM.a

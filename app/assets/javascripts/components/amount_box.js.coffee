@@ -5,10 +5,10 @@
       React.DOM.div
         className: 'col-md-4'
         React.DOM.div
-          className: "panel panel-#{ @props.type }"
+          className: "card card-outline-#{ @props.type }"
           React.DOM.div
-            className: 'panel-heading'
+            className: "card-header card-#{ @props.type }"
             @props.text
           React.DOM.div
-            className: 'panel-body'
+            className: 'card-block'
             amountFormat(@props.amount)
